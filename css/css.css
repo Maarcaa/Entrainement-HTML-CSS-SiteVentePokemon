@@ -1,0 +1,374 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.black {
+    background-color: #201335;
+    height: 4.7vh;
+
+}
+
+.white {
+    color: white;
+    padding: 0.4rem;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+/* SEARCH BAR NAV 1 */
+.searchBar {
+    width: 50vw;
+    height: 2.5vh;
+    background-color: white;
+    margin: auto;
+}
+
+/* SEARCH BAR TEXT NAV 1 */
+.searchBar p {
+    padding-bottom: 5px;
+    margin: auto;
+    line-height: 2.5rem;
+}
+
+div .hoverUn:hover {
+    color: yellow;
+}
+
+.categories {
+    width: 8vw;
+    background-color: white;
+    height: 2.5vh;
+    margin: auto;
+}
+
+
+/* LOUPE BARRE DE NAV 1 */
+.loupe {
+    width: 2vw;
+    background-color: yellow;
+    height: 2.5vh;
+    margin: auto;
+    text-align: center;
+}
+
+.border {
+    border: 2px solid grey;
+    padding: 0.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+div p a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ECRITURE BLANCHE NAV 1 et 2 */
+.white2 {
+    color: white;
+}
+
+/* ECRITURE SEARCH BAR + LOUPE NAV 1 */
+.black2 {
+    color: black;
+    margin: auto;
+}
+
+/* IMAGE LOUPE */
+.loup {
+    margin-left: 0.20rem;
+    margin-top: 0.15rem;
+}
+
+.none {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    line-height: 4rem;
+}
+
+/* COULEUR BARRE NAV 2 */
+.blue {
+    background-color: #4F4789;
+    height: 4.7vh;
+
+}
+
+.marginAuto {
+    height: 4.5vh;
+    text-transform: uppercase;
+}
+
+/* LIEN BARRE DE NAV 2 */
+li a {
+    color: white;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+/* HOVER LIEN BARRE DE NAV 2 */
+li a:hover {
+    color: yellow;
+    margin: auto;
+}
+
+/* CONTAINER IMG MAIN */
+.img-main {
+    background-image: url(../img/bgMain2.png);
+    background-repeat: no-repeat;
+    height: 45vh;
+    text-align: center;
+    background-position: top center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ARTICLE */
+.article {
+    width: 13vw;
+    background-color: white;
+    height: 29vh;
+    margin: 2rem 3rem;
+}
+
+/* IMG DE L'ARTICLE */
+.article img {
+    width: 13.3vw;
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0.1rem;
+}
+
+/* LIGNE ROW DE 4 ARTICLES */
+.ligne1 {
+    display: flex;
+    justify-content: center;
+    margin: 1.3rem;
+    padding: 2rem;
+}
+
+/* PARAGRAPHE DES ARTICLES */
+.article p {
+    line-height: 1.4rem;
+    text-align: center;
+    margin: 0.6rem;
+}
+
+/* PRIX DE L'ARTICLE */
+.priceBlue {
+    font-size: 1.5rem;
+    color: #4F4789;
+    font-weight: 800;
+}
+
+/* DESCRIPTION DE L'ARTICLE */
+.description {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* PANIER ARTICLE */
+.panier {
+    border: 1px solid yellow;
+    border-radius: 1rem;
+    background-color: yellow;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #201335;
+    height: 25vh;
+    margin-top: 5rem;
+    color: white;
+}
+
+footer div div {
+    display: flex;
+    justify-content: center;
+    padding: 0.55rem;
+}
+
+.white3 {
+    background-color: white;
+}
+
+.footer p{
+    line-height: 1.4rem;
+    margin: auto;
+    text-align: center;
+    margin: 0.6rem;
+}
+
+.email {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* H1 TITRE PRINCIPAL */
+div div h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding: 28rem;
+
+}
+
+/* H2 TITRE SECONDAIRE */
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+hr {
+    width: 64vw;
+    text-align: center;
+}
+
+/* H3 */
+h3 {
+    padding: 1.5rem;
+    display: block;
+    font-weight: 800;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    flex: 1;
+}
+
+/* H4 */
+h4 {
+    padding: 1.5rem;
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+/* H5 */
+h5 {
+    padding: 1.5rem;
+    display: block;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+/* CONDITIONS GENERALES VDE VENTES */
+.conditions{
+    padding: 2rem;
+    line-height: 3rem;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    text-align: justify;
+}
+
+h3,h4,h5{
+    text-align: center;
+}
+
+/* POLITIQUE DE REMBOURSEMENT */
+
+.adresse{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+/* CUSTOMER FORM CONNEXION */
+
+
+.formulaire{
+    width: 20%;
+    border: solid black 0.1rem;
+    margin: auto;
+    background-color: aqua;
+}
+
+.formulaire p{
+    display: flex;
+}
+
+
+
+
+
+/* FOOTER PAGE DE CONNEXION */
+
+.footerConnexion{
+    display: flex;
+    justify-content: center;
+}
+.footerConnexion p{
+    padding: 1rem;
+}
+
